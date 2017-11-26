@@ -82,7 +82,7 @@ widget_class"*PanelToplevel*Button*"style"lxpanelbutton"
 style"lxpaneltask"{
 xthickness=3
 ythickness=3
-font_name="bold"
+font_name="Sans 10"
 GtkButton::inner-border={2,2,2,2}
 GtkButton::shadow-type=GTK_SHADOW_NONE
 GtkWidget::wide-separators=1
@@ -158,7 +158,7 @@ widget_class "*FmSidePane*"style "pcmanfm"
 style"lxpanelbold"{
 xthickness=0
 ythickness=0
-font_name="bold"}
+font_name="Sans 10"}
 widget_class"*PanelToplevel*TaskButton*"style"lxpanelbold"
 widget"*TaskButton*GtkLabel"style"lxpanelbold"
 widget"*taskbar*"style"lxpanelbold"

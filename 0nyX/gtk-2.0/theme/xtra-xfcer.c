@@ -25,7 +25,7 @@ widget"*XfceHeading*"style"xfceheaders"
 
 
 style"xfdesktop"{
-font_name="bold"
+font_name="Sans 10"
 XfdesktopIconView::shadow-blur-radius=2
 XfdesktopIconView::label-alpha=0
 XfdesktopIconView::selected-label-alpha=255
@@ -72,7 +72,7 @@ bg[NORMAL]=shade (0.6,@base_color)
 bg[PRELIGHT]=shade (1.1,@base_color)
 bg[SELECTED]=@selected_base_color
 bg[ACTIVE]=@selected_base_color
-font_name="bold"}
+font_name="Sans 10"}
 widget_class"*Xfwm4TabwinWidget*"style"alttab"
 widget_class"*ThunarLocationButtons*GtkButton"style"pathbarbutton"
 widget_class"*ThunarLocationButtons*GtkToggleButton"style"pathbarbutton"
@@ -140,7 +140,7 @@ stretch=TRUE}}}
 widget_class "*XfcePanelWindow*PanelItemBar" style "xfcepanelwindow"
 
 style "xfcepanelboldfont"{
-font_name="bold"}
+font_name="Sans 10"}
 widget_class "*XfcePanelWindow*ClockPlugin*" style "xfcepanelboldfont"
 widget_class "*XfceTasklist*" style "xfcepanelboldfont"
 widget_class "*XfceApplicationsMenu*" style "xfcepanelboldfont"

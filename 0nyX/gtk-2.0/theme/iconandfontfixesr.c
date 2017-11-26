@@ -28,7 +28,7 @@ widget"*GtkIconView**"style"gtklabelimage"
 widget"*GtkCellView*" style "gtklabelimage"
 
 style"gtklabelbold"{
-font_name="bold"}
+font_name="Sans 10"}
 widget_class"*.<GtkMenu>*GtkLabel"style"gtklabelbold"
 widget_class"*.<GtkMenu>*GtkLabel"style"gtklabelbold"
 widget_class"*GtkMenuBar*GtkMenuItem"style"gtklabelbold"
