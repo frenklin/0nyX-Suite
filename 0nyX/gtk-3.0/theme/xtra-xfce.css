@@ -78,7 +78,7 @@ background:transparent;
 border:none;}
 .xfce4-panel>widget>widget>box>widget>button,
 .xfce4-panel>widget>widget>box>widget>button:backdrop {
-font-weight:bold;
+font-weight:normal;
 background:transparent;
 color:shade(@fg_color,0.5);
 border:none;}
@@ -90,7 +90,7 @@ border:none;}
 .xfce4-panel>widget #applicationmenu-button:backdrop,
 .xfce4-panel>widget #actions-button,
 .xfce4-panel>widget #actions-button:backdrop{
-font-weight:bold;
+font-weight:normal;
 background:transparent;
 border:none;}
 .xfce4-panel>widget #clock-button:checked,
@@ -113,7 +113,7 @@ border:none;}
 .xfce4-panel>widget>widget>box>widget>button:checked:backdrop,
 .xfce4-panel>widget>widget>box>widget>button:active,
 .xfce4-panel>widget>widget>box>widget>button:active:backdrop  {
-font-weight:bold;
+font-weight:normal;
 color:@selected_fg_color;
 background:@selected_bg_color;
 border:none;}
@@ -128,7 +128,7 @@ XfdesktopIconView.view,
 XfdesktopIconView.view:backdrop{
 -GtkWidget-window-dragging:false;
 border-color:transparent;
-font-weight:bold;
+font-weight:normal;
 text-shadow: 1px 1px 2px #000000;
 background:transparent;}
 XfdesktopIconView.view:selected,

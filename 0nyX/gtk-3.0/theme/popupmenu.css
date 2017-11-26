@@ -1,7 +1,7 @@
 menu,
 .context-menu{
 box-shadow:none;
-font-weight:bold;
+font-weight:normal;
 padding:1px;
 background-color:shade(@bg_color,0.85);
 border:1px solid @border_color;}
@@ -36,7 +36,7 @@ background:shade(@bg_color,0.85);
 border:1px solid @border_color;}
 popover.background modelbutton{
 padding:2px 0px;
-font-weight:bold;}
+font-weight:normal;}
 popover.background modelbutton:hover{
 background:@selected_base_color;}
 popover treeview.view:not(:hover):not(:selected),

@@ -108,14 +108,14 @@ border:1px solid transparent;}
 *.solid-csd .titlebar .title,
 *.solid-csd .titlebar .title:backdrop{
 color:@titlebar_text;
-font-weight:bold;}
+font-weight:normal;}
 *.csd .titlebar .subtitle,
 *.csd .titlebar .subtitle:backdrop,
 *.solid-csd .titlebar .subtitle,
 *.solid-csd .titlebar .subtitle:backdrop{
 opacity:0.8;
 color:@titlebar_text;
-font-weight:bold;
+font-weight:normal;
 font-size:60%;}
 .default-decoration:backdrop,
 *.csd .titlebar .title:backdrop,
@@ -156,7 +156,7 @@ background:shade(@titlebar_color,1.6);
 color:@titlebar_text;
 border:1px solid @border_color;}
 window.csd>stack.titlebar headerbar buttonbox button.text-button.toggle{
-font-weight:bold;}
+font-weight:normal;}
 
 *.csd headerbar.titlebar button:checked:not(.titlebutton),
 *.csd headerbar.titlebar button:checked:not(.titlebutton):backdrop,

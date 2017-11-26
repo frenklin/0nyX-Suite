@@ -7,7 +7,7 @@ background:@bg_color;
 color:@fg_color;}
 
 assistant .sidebar>label{
-font-weight:bold;
+font-weight:normal;
 padding:3px;
 margin:3px 10px;}
 assistant .sidebar>label.highlight{
@@ -23,7 +23,7 @@ margin:0px;
 border:none;}
 stacksidebar.sidebar>scrolledwindow>viewport>list,
 stacksidebar.sidebar>scrolledwindow>viewport>list:backdrop {
-font-weight:bold;
+font-weight:normal;
 background:@base_color;}
 stacksidebar.sidebar>scrolledwindow>viewport>list separator,
 stacksidebar.sidebar>scrolledwindow>viewport>list separator:backdrop {

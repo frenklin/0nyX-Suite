@@ -97,7 +97,7 @@ stackswitcher>button,
 stackswitcher>button:backdrop,
 .stack-switcher button,
 .stack-switcher button:backdrop{
-font-weight:bold;}
+font-weight:normal;}
 
 .stack-switcher.horizontal button label,
 .stack-switcher.horizontal button label:backdrop{
@@ -109,7 +109,7 @@ margin:5px;}
 
 .titlebar button.text-button.radio,
 .titlebar button.text-button.radio:backdrop{
-font-weight:bold;}
+font-weight:normal;}
 
 *:selected button:not(:checked),
 *:selected button:not(:checked):backdrop{

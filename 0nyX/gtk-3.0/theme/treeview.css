@@ -72,7 +72,7 @@ treeview.view header button:dir(ltr),
 treeview.view header button:dir(ltr):backdrop{
 margin-top:-1px;
 margin-left:-1px;
-font-weight:bold;
+font-weight:normal;
 padding:1px 4px 1px 4px;
 background:@base_color;}
 treeview.view header button:dir(ltr):last-child,
@@ -82,7 +82,7 @@ treeview.view header button:dir(rtl),
 treeview.view header button:dir(rtl):backdrop{
 margin-top:-1px;
 margin-right:-1px;
-font-weight:bold;
+font-weight:normal;
 padding:1px 4px 1px 4px;
 background:@base_color;}
 treeview.view header button:dir(rtl):last-child,

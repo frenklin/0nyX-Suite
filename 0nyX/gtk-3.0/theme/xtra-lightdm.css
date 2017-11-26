@@ -10,7 +10,7 @@ border:1px solid @border_color;
 background:@bg_color;}
 
 .lightdm-gtk-greeter #panel_window {
-font-weight:bold;
+font-weight:normal;
 border-bottom:1px solid @border_color;
 background:@base_color;}
 

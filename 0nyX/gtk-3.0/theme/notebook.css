@@ -13,7 +13,7 @@ margin:-1px;}
 notebook>header tab,
 notebook>header tab:backdrop{
 min-height:24px;
-font-weight:bold;}
+font-weight:normal;}
 notebook>header.top tab:checked:not(:disabled),
 notebook>header.bottom tab:checked:not(:disabled){
 background-color:@selected_base_color;}

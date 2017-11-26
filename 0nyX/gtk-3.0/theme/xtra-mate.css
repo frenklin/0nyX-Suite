@@ -39,12 +39,12 @@ color:@fg_color;}
 
 .mate-panel-menu-bar menubar>menuitem>label,
 .mate-panel-menu-bar menubar:backdrop>menuitem>label{
-font-weight:bold;}
+font-weight:normal;}
 
 .mate-panel-menu-bar #showdesktop-button{
 background:transparent;}
 .mate-panel-menu-bar wnck-tasklist label{
-font-weight:bold;}
+font-weight:normal;}
 
 .mate-panel-menu-bar #tasklist-button:hover {
 background-color:alpha(@selected_bg_color,0.7);}
@@ -62,7 +62,7 @@ color:@fg_color;}
 #tasklist-button,
 #tasklist-button *,
 #PanelPlug #tasklist-button{
-font-weight:bold;
+font-weight:normal;
 color:@selected_fg_color;}
 
 #tasklist-button box image{
